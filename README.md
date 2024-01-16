@@ -15,7 +15,17 @@ https://www.tiktok.com/@oldcoderguy/video/7289808775136054574?_r=1&u_code=dc3418
 
 https://www.youtube.com/watch?v=-m2Ntuom_6Y
 
-The content below is pulled from my [GitHub](http://github.com/skooter500) and [YouTube](http://youtube.com/skooter500). There is lots more amazing stuff there. 
+## Teaching resources
+- [GitHub Classroom]()
+- [Codingbat]() - Great for programming tutorials!!
+- [Leetcode]() - Similar 
+
+The content below is pulled from my [GitHub](http://github.com/skooter500) and [YouTube](http://youtube.com/skooter500). There is lots more amazing stuff there :-) 
+
+- Using git from bash tutorial for two people to do in a lab. Covers everything.
+- A template README.md file that students should use for their repositories.
+- An example team project in github
+- The starter repository that students fork, with the assignment brief
 
 ## Object Oriented Programming
 Second year comp sci students. One semester. Uses Java, GitHub, VSCode and the Processing libraries
@@ -40,15 +50,15 @@ Second year comp sci students. One semester. Uses Java, GitHub, VSCode and the P
 https://github.com/skooter500/OOP-2023/blob/master/assignments.md
 https://github.com/skooter500/MusicVisuals
 
-https://github.com/skooter500/OOP-2018-2019/blob/master/assignments.md
+https://github.com/skooter500/OOP-2018-2019/blob/master/assignments.md 
 https://github.com/skooter500/SciFiUI
 
 ## Playlists
 
-https://www.youtube.com/watch?v=WRQP5SPq54c&list=PL1n0B6z4e_E5a4a21KPXBpRLkTc5JkFOX&pp=gAQBiAQB
-https://www.youtube.com/watch?v=flGGAfn6u8M&list=PL1n0B6z4e_E5PgGZuffuY4bM_ZzeMRWD2&pp=gAQBiAQB
-https://www.youtube.com/watch?v=nFqEMTm5XLU&list=PL1n0B6z4e_E7Iwc8Uud1YlA_gOQXnmP3I&pp=gAQBiAQB
-https://www.youtube.com/watch?v=NGQbYEESZEg&list=PL1n0B6z4e_E7I2bIWWpH8NAa6kPx95sw5&pp=gAQBiAQB
+- https://www.youtube.com/watch?v=WRQP5SPq54c&list=PL1n0B6z4e_E5a4a21KPXBpRLkTc5JkFOX&pp=gAQBiAQB
+- https://www.youtube.com/watch?v=flGGAfn6u8M&list=PL1n0B6z4e_E5PgGZuffuY4bM_ZzeMRWD2&pp=gAQBiAQB
+- https://www.youtube.com/watch?v=nFqEMTm5XLU&list=PL1n0B6z4e_E7Iwc8Uud1YlA_gOQXnmP3I&pp=gAQBiAQB
+- https://www.youtube.com/watch?v=NGQbYEESZEg&list=PL1n0B6z4e_E7I2bIWWpH8NAa6kPx95sw5&pp=gAQBiAQB
 https://www.youtube.com/watch?v=02jJRolMXUo&list=PL1n0B6z4e_E7lhCtkuacS_KvBORRHaR9E&pp=gAQBiAQB
 
 ## Game Programming
@@ -78,18 +88,14 @@ A module for first year Game Design students that uses Processing. The aim is fo
 - https://github.com/skooter500/GP-2023/blob/master/assignments.md
 - https://github.com/skooter500/GP-2022-2023/blob/master/assignments.md
 
-
-
-
-
 # Game Engines 1
 Semester 1, year 4 for comp sci students and semester 1 year 3 for game design students. Game Engines 1 is maths, physics and coding for games. 
 
 ## Example Courses
 
+- https://github.com/skooter500/GE1-2021-2022/
 - https://github.com/skooter500/GE1-2022-2023/
 - https://github.com/skooter500/GE1-2023
-
 
 # Assignments
 - https://github.com/skooter500/GE1-2023/blob/master/assignment.md
@@ -101,10 +107,18 @@ https://www.youtube.com/watch?v=ZkrQnQmDK-M&list=PL1n0B6z4e_E6LmwpeGIW7vYhesNYUO
 https://www.youtube.com/watch?v=0xyRtCJrhMY&list=PL1n0B6z4e_E5naCKOJDfU-sgX_3CdlRfN&pp=gAQBiAQB
 https://www.youtube.com/watch?v=mSEMEWo5zCM&list=PL1n0B6z4e_E6GaGOHiBdPSW0QzICdGs4X&pp=gAQBiAQB
 
-## Playlists
 
 ## Game Engines 2
 Semester 1, year 4 for comp sci students and semester 1 year 3 for game design students. Game Engines 2 is AI for games and simulation. 
+
+## Tests
+
+These are programming tests that test the proficiency with using the Game Engine
+- https://github.com/skooter500/GE2-Test-2023-Starter
+https://github.com/skooter500/GE2-Test-2022
+https://github.com/skooter500/GE2-Test-2021-Starter
+https://github.com/skooter500/GE2-Lab-Test-2019
+https://github.com/skooter500/GE2-LabTest2-2017
 
 ## Assignments 
 https://github.com/skooter500/GE2-2023/blob/master/ca.md
