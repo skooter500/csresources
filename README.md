@@ -12,7 +12,8 @@
 
 [![YouTube](http://img.youtube.com/vi/UyyjU8fzEYU/0.jpg)](https://www.youtube.com/watch?v=UyyjU8fzEYU)
 
-[![YouTube](http://img.youtube.com/vi/UyyjU8fzEYU/0.jpg)](https://www.youtube.com/watch?v=UyyjU8fzEYU)
+[![YouTube](http://img.youtube.com/vi/-m2Ntuom_6Y/0.jpg)](https://www.youtube.com/watch?v=-m2Ntuom_6Y)
+
 
  - [Old Coder Guy on CS Education](https://www.tiktok.com/@oldcoderguy/video/7289808775136054574?_r=1&u_code=dc3418ff6babc5&preview_pb=0&sharer_language=en&_d=e46g3k36h0dcjf&share_item_id=7289808775136054574&source=h5_m&timestamp=1705316542&user_id=6818474814652204038&sec_user_id=MS4wLjABAAAAQVyrfGP_a7iTmMT5QRL_wMGaj1arotdK3ZceyGeQryoLwdOGs3RYLGhnD4p-YnD1&social_share_type=0&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7323808453989254944&share_link_id=fd911533-4d61-4382-aa70-99e62af47e96&share_app_id=1233&ugbiz_name=MAIN&ug_btm=b2001&enable_checksum=1)
 
@@ -104,7 +105,7 @@ A module for first year Game Design students that uses Processing in semester 1 
 - https://github.com/skooter500/GP-2022-2023/blob/master/assignments.md
 
 # Game Engines 1
-Semester 1, year 4 for comp sci students and semester 1 year 3 for game design students. Game Engines 1 is maths, physics and coding for games. 
+Semester 1, year 4 for comp sci students and semester 1 year 3 for game design students. Game Engines 1 is maths, physics and coding for game developers
 
 ## Example Courses
 
