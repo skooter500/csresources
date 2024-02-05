@@ -1,15 +1,16 @@
 # cs resources
 
-- "Education is about lighting a fire, not filling a pale"
-- "As we enjoy great advantages from the inventions of others, we should be glad of an opportunity to serve others by any invention of ours; and this we should do freely and generously"
+"Education is about lighting a fire, not filling a pale"
 
-## Videos for Inspiration
+"As we enjoy great advantages from the inventions of others, we should be glad of an opportunity to serve others by any invention of ours; and this we should do freely and generously"
+
+## Inspiration for CS lecturers: 
 
 [![YouTube](http://img.youtube.com/vi/ji5_MqicxSo/0.jpg)](https://www.youtube.com/watch?v=ji5_MqicxSo)
 
-[![YouTube](http://img.youtube.com/vi//0.jpg)](https://www.youtube.com/watch?v=)
-
 [![YouTube](http://img.youtube.com/vi/Pb5oIIPO62g/0.jpg)](https://www.youtube.com/watch?v=Pb5oIIPO62g)
+
+[![YouTube](http://img.youtube.com/vi/UyyjU8fzEYU/0.jpg)](https://www.youtube.com/watch?v=UyyjU8fzEYU)
 
 [![YouTube](http://img.youtube.com/vi/UyyjU8fzEYU/0.jpg)](https://www.youtube.com/watch?v=UyyjU8fzEYU)
 
@@ -27,12 +28,16 @@
 - [The Coding Train](https://thecodingtrain.com/)
 - [The Nature of Code](https://natureofcode.com/)
 - [Godot](https://godotengine.org/)
-
+- [Logic Simulator 2](https://andrew-wilkes.itch.io/logic-simulator-2)
 
 This content is from my [GitHub](http://github.com/skooter500) and [YouTube](http://youtube.com/skooter500). There is lots more amazing stuff there :-) 
 
-- Using git from bash [tutorial for two people to do in a lab](gitlab.md). Covers everything.
-- A [template readme file](assignmentreadme.md) that students should use for their repositories.
+- [Tutorial for two students to do in a lab](gitlab.md)
+- [Template readme file for student repositories](assignmentreadme.md))
+- [Godot quick reference](godot_ref.md)
+- [Unity quick reference](unity_ref.md.md)
+- [Godot quick reference](unity_to_godot.md.md)
+- [git quick reference](git_ref.md)
 
 ## Object Oriented Programming
 Second year comp sci students. One semester. Uses Java, GitHub, VSCode and the Processing libraries
@@ -72,7 +77,7 @@ Second year comp sci students. One semester. Uses Java, GitHub, VSCode and the P
 A module for first year Game Design students that uses Processing in semester 1 and Godot in semester 2. The aim is for students to learn fundamentals of programming, such as loops, arrays, classes etc. etc. They do this by using Processing, which is a graphical programming language based on Java.
 
 ## Example Courses
-- https://github.com/skooter500/GP-2023/]
+- https://github.com/skooter500/GP-2023/
 - https://github.com/skooter500/GP-2022-2023/
 - https://github.com/skooter500/GP-2021-2022/
 - https://github.com/skooter500/GP-2020-2021/
@@ -117,7 +122,6 @@ Semester 1, year 4 for comp sci students and semester 1 year 3 for game design s
 - https://www.youtube.com/watch?v=0xyRtCJrhMY&list=PL1n0B6z4e_E5naCKOJDfU-sgX_3CdlRfN&pp=gAQBiAQB
 - https://www.youtube.com/watch?v=mSEMEWo5zCM&list=PL1n0B6z4e_E6GaGOHiBdPSW0QzICdGs4X&pp=gAQBiAQB
 
-
 ## Game Engines 2
 Semester 1, year 4 for comp sci students and semester 1 year 3 for game design students. Game Engines 2 is AI for games and simulation. 
 
@@ -143,7 +147,7 @@ These are programming tests with Unity or Godot
 - https://www.youtube.com/watch?v=Z0EBRiennwo&list=PL1n0B6z4e_E74Exw6947cgKthb8Mkzr7w&pp=gAQBiAQB
 - https://www.youtube.com/watch?v=IOCEM6ZNU-E&list=PL1n0B6z4e_E7PlsMwPXdXgIfJCKPInqzm&pp=gAQBiAQB
 
-## My Projects on github
+## My projects on github
 
 - [Infinite Forms](https://github.com/skooter500/forms)
 - [iamdani](https://github.com/skooter500/forms)
@@ -151,4 +155,3 @@ These are programming tests with Unity or Godot
 - [Janus](https://github.com/skooter500/janus)
 - [BGE](https://github.com/skooter500/bge)
 - [Make a Youtiube Playlist from a text file](https://github.com/skooter500/playlistmaker)
-
