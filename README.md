@@ -4,7 +4,7 @@
 
 "As we enjoy great advantages from the inventions of others, we should be glad of an opportunity to serve others by any invention of ours; and this we should do freely and generously"
 
-## Inspiration for CS lecturers: 
+## Inspiration for CS lecturers 
 
 [![YouTube](http://img.youtube.com/vi/ji5_MqicxSo/0.jpg)](https://www.youtube.com/watch?v=ji5_MqicxSo)
 
@@ -14,9 +14,7 @@
 
 [![YouTube](http://img.youtube.com/vi/-m2Ntuom_6Y/0.jpg)](https://www.youtube.com/watch?v=-m2Ntuom_6Y)
 
-
  - [Old Coder Guy on CS Education](https://www.tiktok.com/@oldcoderguy/video/7289808775136054574?_r=1&u_code=dc3418ff6babc5&preview_pb=0&sharer_language=en&_d=e46g3k36h0dcjf&share_item_id=7289808775136054574&source=h5_m&timestamp=1705316542&user_id=6818474814652204038&sec_user_id=MS4wLjABAAAAQVyrfGP_a7iTmMT5QRL_wMGaj1arotdK3ZceyGeQryoLwdOGs3RYLGhnD4p-YnD1&social_share_type=0&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7323808453989254944&share_link_id=fd911533-4d61-4382-aa70-99e62af47e96&share_app_id=1233&ugbiz_name=MAIN&ug_btm=b2001&enable_checksum=1)
-
 
 ## Teaching Tools 
 
@@ -30,17 +28,20 @@
 - [The Nature of Code](https://natureofcode.com/)
 - [Godot](https://godotengine.org/)
 - [Logic Simulator 2](https://andrew-wilkes.itch.io/logic-simulator-2)
+- [Turing Complete](https://turingcomplete.game/)
 
 This content is from my [GitHub](http://github.com/skooter500) and [YouTube](http://youtube.com/skooter500). There is lots more amazing stuff there :-) 
 
 - [Tutorial for two students to do in a lab](gitlab.md)
-- [Template readme file for student repositories](assignmentreadme.md))
+- [Template readme file for student repositories](assignmentreadme.md)
 - [Godot quick reference](godot_ref.md)
 - [Unity quick reference](unity_ref.md.md)
 - [Godot quick reference](unity_to_godot.md.md)
 - [git quick reference](git_ref.md)
+- [project ideas](https://bryanduggan.org/projects/final-year-project-ideas/)
 
 ## Object Oriented Programming
+
 Second year comp sci students. One semester. Uses Java, GitHub, VSCode and the Processing libraries
 
 # Example Courses
@@ -59,19 +60,26 @@ Second year comp sci students. One semester. Uses Java, GitHub, VSCode and the P
 - https://github.com/skooter500/OOP_Labtest1_2017_Starter
 - https://github.com/skooter500/OOP-LabTest1-
 
-## Assignments
+## Team Assignment
 - https://github.com/skooter500/OOP-2023/blob/master/assignments.md
 - https://github.com/skooter500/MusicVisuals
 - https://github.com/skooter500/OOP-2018-2019/blob/master/assignments.md 
 - https://github.com/skooter500/SciFiUI
 
-## Playlists
+## Team Videos
 
 - [2023](https://www.youtube.com/watch?v=WRQP5SPq54c&list=PL1n0B6z4e_E5a4a21KPXBpRLkTc5JkFOX&pp=gAQBiAQB)
 - [2022](https://www.youtube.com/watch?v=flGGAfn6u8M&list=PL1n0B6z4e_E5PgGZuffuY4bM_ZzeMRWD2&pp=gAQBiAQB)
 - [2021](https://www.youtube.com/watch?v=nFqEMTm5XLU&list=PL1n0B6z4e_E7Iwc8Uud1YlA_gOQXnmP3I&pp=gAQBiAQB)
 - [2020](https://www.youtube.com/watch?v=NGQbYEESZEg&list=PL1n0B6z4e_E7I2bIWWpH8NAa6kPx95sw5&pp=gAQBiAQB)
 - [2019](https://www.youtube.com/watch?v=02jJRolMXUo&list=PL1n0B6z4e_E7lhCtkuacS_KvBORRHaR9E&pp=gAQBiAQB)
+
+## Team Repos
+- https://github.com/ASJA-Visuals/MusicVisuals
+- https://github.com/WillL02/MusicVisuals
+- https://github.com/annnnnne0811/MusicVisuals23
+- https://github.com/Matiss-Priednieks/OOPAssignment
+- https://github.com/TaifFaisal/SciFiUI
 
 ## Game Programming
 
@@ -105,7 +113,7 @@ A module for first year Game Design students that uses Processing in semester 1 
 - https://github.com/skooter500/GP-2022-2023/blob/master/assignments.md
 
 # Game Engines 1
-Semester 1, year 4 for comp sci students and semester 1 year 3 for game design students. Game Engines 1 is maths, physics and coding for game developers
+Semester 1, year 4 for comp sci students and semester 1 year 3 for game design students. Game Engines 1 is maths, physics and coding for game developers. For computer science students this a great example of applied computer science (i.e. the *head fake*).
 
 ## Example Courses
 
@@ -117,11 +125,15 @@ Semester 1, year 4 for comp sci students and semester 1 year 3 for game design s
 - https://github.com/skooter500/GE1-2023/blob/master/assignment.md
 - https://github.com/skooter500/GE1-2022-2023/blob/master/assignment.md
 
-## Playlists
+## Team Videos
 
 - https://www.youtube.com/watch?v=ZkrQnQmDK-M&list=PL1n0B6z4e_E6LmwpeGIW7vYhesNYUOLEN&pp=gAQBiAQB
 - https://www.youtube.com/watch?v=0xyRtCJrhMY&list=PL1n0B6z4e_E5naCKOJDfU-sgX_3CdlRfN&pp=gAQBiAQB
 - https://www.youtube.com/watch?v=mSEMEWo5zCM&list=PL1n0B6z4e_E6GaGOHiBdPSW0QzICdGs4X&pp=gAQBiAQB
+
+## Team Repos 
+- https://github.com/Goubt/LerpNSlerp
+- https://github.com/aidan959/Tokyo-3
 
 ## Game Engines 2
 Semester 1, year 4 for comp sci students and semester 1 year 3 for game design students. Game Engines 2 is AI for games and simulation. 
