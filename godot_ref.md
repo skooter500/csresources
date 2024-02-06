@@ -7,11 +7,12 @@
 | F5 | Run current project |
 | F6 | Run current scene |
 | F7 | Resume after pause |
+| F8 | Stop |
 | F9 | Toggle breakpoint |
 | F10 | Step out |
 | F11 | Step into |
 | Ctrl  \ | Show hide recently opened files |
-| Ctrl  S | |
+| Ctrl  S | Save |
 | Ctrl  K | Comment a line |
 | Ctrl R | Search/Replace current file |
 | Ctrl F | Search current file |
@@ -20,7 +21,10 @@
 | Ctrl Shift F11 | Max space for editing |
 | Ctrl + A | Add new node |
 | Ctrl + Shift + A | Instantiate new node |
-| F | Focus on the selected node in the 3D scene view|
+| F | Focus on the selected node in the 3D scene view |
+| Ctrl + F1 | Switch to 2D |
+| Ctrl + F2 | Switch to 3D |
+| Ctrl + F3 | Switch to Code |
 
 ## Useful Nodes
 
@@ -36,7 +40,8 @@
 | RigidBody3D | Rigid body |
 | CharacterBody3D | Kinematic rigid body |
 | Timer | Node that send signals on an interval |
-| Camera3D | |
+| Camera3D | 3D Camera |
+| Node2D | 2D transform node. The 2D transform has position, rotation (float)
 
 ## Transforms
 
@@ -62,12 +67,6 @@
 | Explosiveness | Explodes them all out semi randomly |
 | Randomness | How randomly they emit |
 
-### Process Material
-
-| Lifetime randomness | |
-| Emission Shape |  |
-| | |
-
 ## Referencing other nodes
 
 ```Python
@@ -77,6 +76,7 @@ $Timer.start(1.0 / fireRate)
 
 get_parent()
 find_child()
+@onready var path:Path3D=get_node("../Path3D")
 
 ```
 
@@ -122,5 +122,5 @@ find_child()
 | DebugDraw.draw_sphere(target.global_transform.origin, slowing_radius, Color.aquamarine) | Draw a sphere |
 | DebugDraw.draw_line(boid.global_transform.origin, feeler.hit_target, Color.chartreuse) *or* DebugDraw.draw_arrow_line(feeler.hit_target, feeler.hit_target + feeler.normal, Color.blue, 0.1) | Draw a line |
 | @tool | |
-| @export |
-
+| @export | |
+| @onready | |
