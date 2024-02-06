@@ -29,16 +29,19 @@
 - [Godot](https://godotengine.org/)
 - [Logic Simulator 2](https://andrew-wilkes.itch.io/logic-simulator-2)
 - [Turing Complete](https://turingcomplete.game/)
+- [git for poets](https://www.youtube.com/watch?v=BCQHnlnPusY)
 
 This content is from my [GitHub](http://github.com/skooter500) and [YouTube](http://youtube.com/skooter500). There is lots more amazing stuff there :-) 
 
 - [Tutorial for two students to do in a lab](gitlab.md)
 - [Template readme file for student repositories](assignmentreadme.md)
 - [Godot quick reference](godot_ref.md)
-- [Unity quick reference](unity_ref.md.md)
+- [Unity quick reference](unity_ref.md)
 - [Godot quick reference](unity_to_godot.md.md)
 - [git quick reference](git_ref.md)
 - [project ideas](https://bryanduggan.org/projects/final-year-project-ideas/)
+- [More crazy VR project ideas](https://github.com/skooter500/GE1-2023/blob/master/assignment.md)
+- [Game Engines 1 past papers](https://github.com/skooter500/GE1-2023/blob/master/pastpapers.zip)
 
 ## Object Oriented Programming
 
