@@ -6,6 +6,8 @@
 
 ## Inspiration for CS lecturers 
 
+Click the images below:
+
 [![YouTube](http://img.youtube.com/vi/ji5_MqicxSo/0.jpg)](https://www.youtube.com/watch?v=ji5_MqicxSo)
 
 [![YouTube](http://img.youtube.com/vi/Pb5oIIPO62g/0.jpg)](https://www.youtube.com/watch?v=Pb5oIIPO62g)
@@ -42,10 +44,11 @@ This content is from my [GitHub](http://github.com/skooter500) and [YouTube](htt
 - [project ideas](https://bryanduggan.org/projects/final-year-project-ideas/)
 - [More crazy VR project ideas](https://github.com/skooter500/GE1-2023/blob/master/assignment.md)
 - [Game Engines 1 past papers](https://github.com/skooter500/GE1-2023/blob/master/pastpapers.zip)
+- [Games Fleadh](http://gamesfleadh.ie)
 
 ## Object Oriented Programming
 
-Second year comp sci students. One semester. Uses Java, GitHub, VSCode and the Processing libraries
+Second year CS students. One semester. Uses Java, GitHub, VSCode and the Processing libraries
 
 # Example Courses
  - https://github.com/skooter500/OOP-2023
@@ -116,7 +119,7 @@ A module for first year Game Design students that uses Processing in semester 1 
 - https://github.com/skooter500/GP-2022-2023/blob/master/assignments.md
 
 # Game Engines 1
-Semester 1, year 4 for comp sci students and semester 1 year 3 for game design students. Game Engines 1 is maths, physics and coding for game developers. For computer science students this a great example of applied computer science (i.e. the *head fake*).
+Semester 1, year 4 for CS  and semester 1 year 3 for game design. Game Engines 1 is maths, physics and coding for game developers. For CS this a great example of applied CS (i.e. the *head fake*).
 
 ## Example Courses
 
@@ -139,7 +142,7 @@ Semester 1, year 4 for comp sci students and semester 1 year 3 for game design s
 - https://github.com/aidan959/Tokyo-3
 
 ## Game Engines 2
-Semester 1, year 4 for comp sci students and semester 1 year 3 for game design students. Game Engines 2 is AI for games and simulation. 
+Semester 1, year 4 for CS and semester 1 year 3 for Game Design . Game Engines 2 is AI for games and simulation. 
 
 ## Tests
 
