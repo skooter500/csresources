@@ -84,6 +84,6 @@
 | Vector3.Forward | Vector3.FORWARD *Note this is (0, 0, -1) in Godot* |
 | Random.Range | rand_range() *In Godot, call randomize() once in your program to set the random seed* |
 | Quaternion.Slerp |  basis.slerp or quat.slerp |
-| Quaternion * by a Vector3 | basis.xform() |
-| Gizmos.DrawSphere | DebugDraw.draw_sphere(target.global_transform.origin, slowing_radius, Color.aquamarine) |
-| Gizmos.DrawLine | DebugDraw.draw_line(boid.global_transform.origin, feeler.hit_target, Color.chartreuse) *or* DebugDraw.draw_arrow_line(feeler.hit_target, feeler.hit_target + feeler.normal, Color.blue, 0.1) |
+| Quaternion * by a Vector3 | basis.xform(). Can also use * |
+| Gizmos.DrawSphere | DebugDraw3D.draw_sphere(target.global_transform.origin, slowing_radius, Color.aquamarine) |
+| Gizmos.DrawLine | DebugDraw3D.draw_line(boid.global_transform.origin, feeler.hit_target, Color.chartreuse) *or* DebugDraw.draw_arrow_line(feeler.hit_target, feeler.hit_target + feeler.normal, Color.blue, 0.1) |

@@ -16,10 +16,28 @@ Click the images below:
 
 [![YouTube](http://img.youtube.com/vi/-m2Ntuom_6Y/0.jpg)](https://www.youtube.com/watch?v=-m2Ntuom_6Y)
 
+
+[![YouTube](http://img.youtube.com/vi/9JZSx1z3_vQ/0.jpg)](https://www.youtube.com/watch?v=9JZSx1z3_vQ)
+
  - [Old Coder Guy on CS Education](https://www.tiktok.com/@oldcoderguy/video/7289808775136054574?_r=1&u_code=dc3418ff6babc5&preview_pb=0&sharer_language=en&_d=e46g3k36h0dcjf&share_item_id=7289808775136054574&source=h5_m&timestamp=1705316542&user_id=6818474814652204038&sec_user_id=MS4wLjABAAAAQVyrfGP_a7iTmMT5QRL_wMGaj1arotdK3ZceyGeQryoLwdOGs3RYLGhnD4p-YnD1&social_share_type=0&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7323808453989254944&share_link_id=fd911533-4d61-4382-aa70-99e62af47e96&share_app_id=1233&ugbiz_name=MAIN&ug_btm=b2001&enable_checksum=1)
 
 ## Teaching Tools 
 
+This content is from my [GitHub](http://github.com/skooter500) and [YouTube](http://youtube.com/skooter500). There is lots more amazing stuff there :-) 
+
+- [Tutorial for two students to do in a lab](gitlab.md)
+- [Template readme file for student repositories](assignmentreadme.md)
+- [Godot quick reference](godot_ref.md)
+- [Unity quick reference](unity_ref.md)
+- [Godot quick reference](unity_to_godot.md.md)
+- [git quick reference](git_ref.md)
+- [project ideas](https://bryanduggan.org/projects/final-year-project-ideas/)
+- [More crazy VR project ideas](https://github.com/skooter500/GE1-2023/blob/master/assignment.md)
+- [Game Engines 1 past papers](https://github.com/skooter500/GE1-2023/blob/master/pastpapers.zip)
+
+From the www:
+
+- [Games Fleadh](http://gamesfleadh.ie)
 - [Git for Windows](https://gitforwindows.org/)
 - [GitHub Classroom](https://classroom.github.com/classrooms)
 - [Codingbat](https://codingbat.com/java) - Great for programming tutorials!!
@@ -33,18 +51,6 @@ Click the images below:
 - [Turing Complete](https://turingcomplete.game/)
 - [git for poets](https://www.youtube.com/watch?v=BCQHnlnPusY)
 
-This content is from my [GitHub](http://github.com/skooter500) and [YouTube](http://youtube.com/skooter500). There is lots more amazing stuff there :-) 
-
-- [Tutorial for two students to do in a lab](gitlab.md)
-- [Template readme file for student repositories](assignmentreadme.md)
-- [Godot quick reference](godot_ref.md)
-- [Unity quick reference](unity_ref.md)
-- [Godot quick reference](unity_to_godot.md.md)
-- [git quick reference](git_ref.md)
-- [project ideas](https://bryanduggan.org/projects/final-year-project-ideas/)
-- [More crazy VR project ideas](https://github.com/skooter500/GE1-2023/blob/master/assignment.md)
-- [Game Engines 1 past papers](https://github.com/skooter500/GE1-2023/blob/master/pastpapers.zip)
-- [Games Fleadh](http://gamesfleadh.ie)
 
 ## Object Oriented Programming
 

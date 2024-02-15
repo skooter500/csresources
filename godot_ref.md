@@ -41,7 +41,7 @@
 | CharacterBody3D | Kinematic rigid body |
 | Timer | Node that send signals on an interval |
 | Camera3D | 3D Camera |
-| Node2D | 2D transform node. The 2D transform has position, rotation (float)
+| Node2D | 2D transform node. The 2D transform has position, rotation (float) |
 
 ## Transforms
 
@@ -76,7 +76,10 @@ $Timer.start(1.0 / fireRate)
 
 get_parent()
 find_child()
-@onready var path:Path3D=get_node("../Path3D")
+@onready var path1:Path3D=get_node("../Path3D")
+@onready var path2:Path3D=$../Path3D
+get_tree().root
+get_tree().quit()
 
 ```
 
@@ -90,8 +93,8 @@ find_child()
 | if condition:  elif:                                     |  |
 | for i in range(length):                                  |  |
 | while condition:                                          |  |
-| var i = 0                                                      | |
-| var f = 0.0                                                    | | 
+| var i = 0:int                                                      | |
+| var f = 0.0:float                                                    | | 
 | var v = Vector3(1, 2, 3)                                       | |
 | @export var bulletPrefab:PackedScene | Give a node a reference to a packedscene (prefab) that can be instiantiated later | 
 | var bullet = bulletPrefab.instantiate() | Create a new node from a packedscene |
@@ -119,8 +122,8 @@ find_child()
 | rand_range() *In Godot, call randomize() once in your program to set the random seed* | |
 | basis.slerp or quat.slerp | Slerp a basis vectror or quaternion |
 | basis.xform() | Transform a vector | 
-| DebugDraw.draw_sphere(target.global_transform.origin, slowing_radius, Color.aquamarine) | Draw a sphere |
-| DebugDraw.draw_line(boid.global_transform.origin, feeler.hit_target, Color.chartreuse) *or* DebugDraw.draw_arrow_line(feeler.hit_target, feeler.hit_target + feeler.normal, Color.blue, 0.1) | Draw a line |
+| DebugDraw3D.draw_sphere(target.global_transform.origin, slowing_radius, Color.aquamarine) | Draw a sphere |
+| DebugDraw3D.draw_line(boid.global_transform.origin, feeler.hit_target, Color.chartreuse) *or* DebugDraw.draw_arrow_line(feeler.hit_target, feeler.hit_target + feeler.normal, Color.blue, 0.1) | Draw a line |
 | @tool | |
 | @export | |
 | @onready | |

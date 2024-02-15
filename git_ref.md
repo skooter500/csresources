@@ -5,7 +5,7 @@
 | git clone http://github.com/skooter500/csresources | Get a repo from a remote server to the local machine |
 | git add . | add all files in the current directory recursively to the staging area |
 | git commit -m "a commit message" | Take a snapshot of all the files |
-| git push --set-upstream origin master | Send the latest commits to the server. Run this the first time |
+| git push --set-upstream origin main | Send the latest commits to the server. Run this the first time |
 | git push |  Send the latest commits to the server |
 | git log | Show the list of previous commits. Use the 40 digit hex with git checkout to roll back to that commit |
 | git checkout -b new_branch | Create a new branch and make it current |
@@ -13,11 +13,13 @@
 | git merge test_branch | Merge test_branch with the current branch  |
 | git stash | Save changes in the stash for later retrieval |
 | git init | Creates the .git hidden folder and puts the current folder under version control |
+| git remote add origin http://github.com/skooter500/csresources | Adds a remote called origin. origin is the default remote |
 | git remote add upstream http://github.com/skooter500/csresources | Adds a remote called upstream. Useful for forking |
 | git remote set-url upstream http://github.com/skooter500/csresources | Sets the url on a remote. Useful if you made a mistake with the above |
 | git remote set-url origin http://github.com/skooter500/csresources | |
 | git remote -v | Show the list of remotes |
-| git pull upstream master | Pull changes from the upstream remote, master branch into the current branch |
+| git pull upstream main | Pull changes from the upstream remote, main branch into the current branch |
+| git pull origin main | Pull changes from the origin remote, main branch into the current branch |
 | git checkout --ours src/ie/tudublin/Main.java | For resolving a merge conflict on a file. Take the local version | 
 | git checkout --theirs  src/ie/tudublin/Main.java |  For resolving a merge conflict on a file. Take the remote version |
 
