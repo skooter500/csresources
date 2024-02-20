@@ -25,12 +25,13 @@ Click the images below:
 
 This content is from my [GitHub](http://github.com/skooter500) and [YouTube](http://youtube.com/skooter500). There is lots more amazing stuff there :-) 
 
+
 - [Tutorial for two students to do in a lab](gitlab.md)
 - [Template readme file for student repositories](assignmentreadme.md)
-- [Godot quick reference](godot_ref.md)
-- [Unity quick reference](unity_ref.md)
-- [Godot quick reference](unity_to_godot.md.md)
-- [git quick reference](git_ref.md)
+- [git quick reference](git_ref.pdf)
+- [Godot quick reference](godot_ref.pdf)
+- [Unity quick reference](unity_ref.pdf)
+- [Godot quick reference](unity_to_godot.pdf)
 - [project ideas](https://bryanduggan.org/projects/final-year-project-ideas/)
 - [More crazy VR project ideas](https://github.com/skooter500/GE1-2023/blob/master/assignment.md)
 - [Game Engines 1 past papers](https://github.com/skooter500/GE1-2023/blob/master/pastpapers.zip)
