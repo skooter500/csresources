@@ -26,8 +26,8 @@ Click the images below:
 This content is from my [GitHub](http://github.com/skooter500) and [YouTube](http://youtube.com/skooter500). There is lots more amazing stuff there :-) 
 
 
-- [Tutorial for two students to do in a lab](gitlab.md)
-- [Template readme file for student repositories](assignmentreadme.md)
+- [git Tutorial for two students to do in a lab](gitlab.md)
+- [Template readme file for student team project repositories](assignmentreadme.md)
 - [git quick reference](git_ref.pdf)
 - [Godot quick reference](godot_ref.pdf)
 - [Unity quick reference](unity_ref.pdf)
