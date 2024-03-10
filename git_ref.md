@@ -22,6 +22,7 @@
 | git pull origin main | Pull changes from the origin remote, main branch into the current branch |
 | git checkout --ours src/ie/tudublin/Main.java | For resolving a merge conflict on a file. Take the local version | 
 | git checkout --theirs  src/ie/tudublin/Main.java |  For resolving a merge conflict on a file. Take the remote version |
+| git branch -m main | rename a branch. Useful if you want to rename master to main |
 
 | bash | Description |
 | -----|---------|
