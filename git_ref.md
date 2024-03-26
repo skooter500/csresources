@@ -23,6 +23,8 @@
 | git checkout --ours src/ie/tudublin/Main.java | For resolving a merge conflict on a file. Take the local version | 
 | git checkout --theirs  src/ie/tudublin/Main.java |  For resolving a merge conflict on a file. Take the remote version |
 | git branch -m main | rename a branch. Useful if you want to rename master to main |
+| git rm -f --cached godot-cpp | Remove godot-cpp from the index. -f means force |
+| git submodule add https://github.com/godotengine/godot-cpp godot-cpp | Adds a submodule (another git repo) with a different url |
 
 | bash | Description |
 | -----|---------|
