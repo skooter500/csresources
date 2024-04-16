@@ -31,7 +31,7 @@ This content is from my [GitHub](http://github.com/skooter500) and [YouTube](htt
 - [git quick reference](git_ref.pdf)
 - [Godot quick reference](godot_ref.pdf)
 - [Unity quick reference](unity_ref.pdf)
-- [Godot quick reference](unity_to_godot.pdf)
+- [Unity to Godot quick reference](unity_to_godot.pdf)
 - [project ideas](https://bryanduggan.org/projects/final-year-project-ideas/)
 - [More crazy VR project ideas](https://github.com/skooter500/GE1-2023/blob/master/assignment.md)
 - [Game Engines 1 past papers](https://github.com/skooter500/GE1-2023/blob/master/pastpapers.zip)
