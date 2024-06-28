@@ -58,7 +58,7 @@ Stretch Goal project: i.am.dani
 
 - https://github.com/skooter500/iamdani
 
-## Team Videos
+## YouTube Playlists of the Assignments
 - [2024](https://www.youtube.com/watch?v=tqMkc-_airg&list=PL1n0B6z4e_E5apcm1SQxlNqLEez2IxnJI)
 - [2023](https://www.youtube.com/watch?v=WRQP5SPq54c&list=PL1n0B6z4e_E5a4a21KPXBpRLkTc5JkFOX&pp=gAQBiAQB)
 - [2022](https://www.youtube.com/watch?v=flGGAfn6u8M&list=PL1n0B6z4e_E5PgGZuffuY4bM_ZzeMRWD2&pp=gAQBiAQB)
@@ -106,7 +106,8 @@ A module for first year Game Design students that uses Processing in semester 1 
 - https://github.com/skooter500/GP-2023/blob/master/assignments.md
 - https://github.com/skooter500/GP-2022-2023/blob/master/assignments.md
 
-## Assignment Videos - Musical Instruments Made with Godot
+## YouTube Playlists of the Assignments - Musical Instruments Made with Godot
+- https://www.youtube.com/watch?v=3CdIYzE9ZAE&list=PL1n0B6z4e_E6t2-AZTM30ZyeWNNTv8SvR
 - https://www.youtube.com/watch?v=xnbHNQOCXSU&list=PL1n0B6z4e_E7PV9bmzFDRow2Qoe1MOqvo
 
 # Game Engines 1
@@ -122,7 +123,7 @@ Semester 1, year 4 for CS  and semester 1 year 3 for game design. Game Engines 1
 - https://github.com/skooter500/GE1-2023/blob/master/assignment.md
 - https://github.com/skooter500/GE1-2022-2023/blob/master/assignment.md
 
-## Team Videos
+## YouTube Playlists of the Assignments
 
 - https://www.youtube.com/watch?v=ZkrQnQmDK-M&list=PL1n0B6z4e_E6LmwpeGIW7vYhesNYUOLEN&pp=gAQBiAQB
 - https://www.youtube.com/watch?v=0xyRtCJrhMY&list=PL1n0B6z4e_E5naCKOJDfU-sgX_3CdlRfN&pp=gAQBiAQB
@@ -135,7 +136,7 @@ Semester 1, year 4 for CS  and semester 1 year 3 for game design. Game Engines 1
 ## Game Engines 2
 Semester 1, year 4 for CS and semester 1 year 3 for Game Design . Game Engines 2 is AI for games and simulation. 
 
-## Tests
+## In Class Tests
 
 These are programming tests with Unity or Godot
 
@@ -149,14 +150,13 @@ These are programming tests with Unity or Godot
 - https://github.com/skooter500/GE2-2023/blob/master/ca.md
 - https://github.com/skooter500/GE2-2020-2021/blob/master/ca.md
 
-## Playlists of assignments
+## YouTube Playlists of the Assignments
 
 - https://www.youtube.com/watch?v=wgLdWPeAWMo&list=PL1n0B6z4e_E5lzjXKOn8BYEcdzXUrgPyn
 - https://www.youtube.com/watch?v=f9tmgOyUgD8&list=PL1n0B6z4e_E7YVQZ4utNXO87HlBsWXp-x&pp=gAQBiAQB
 - https://www.youtube.com/watch?v=HVBxYQz96Iw&list=PL1n0B6z4e_E4HNNWuFN5fW1Efi6_fK9_r&pp=gAQBiAQB
 - https://www.youtube.com/watch?v=Z0EBRiennwo&list=PL1n0B6z4e_E74Exw6947cgKthb8Mkzr7w&pp=gAQBiAQB
 - https://www.youtube.com/watch?v=IOCEM6ZNU-E&list=PL1n0B6z4e_E7PlsMwPXdXgIfJCKPInqzm&pp=gAQBiAQB
-
 
 ## Inspiration for CS lecturers 
 
@@ -174,7 +174,6 @@ Click the images below:
 [![YouTube](http://img.youtube.com/vi/9JZSx1z3_vQ/0.jpg)](https://www.youtube.com/watch?v=9JZSx1z3_vQ)
 
  - [Old Coder Guy on CS Education](https://www.tiktok.com/@oldcoderguy/video/7289808775136054574?_r=1&u_code=dc3418ff6babc5&preview_pb=0&sharer_language=en&_d=e46g3k36h0dcjf&share_item_id=7289808775136054574&source=h5_m&timestamp=1705316542&user_id=6818474814652204038&sec_user_id=MS4wLjABAAAAQVyrfGP_a7iTmMT5QRL_wMGaj1arotdK3ZceyGeQryoLwdOGs3RYLGhnD4p-YnD1&social_share_type=0&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7323808453989254944&share_link_id=fd911533-4d61-4382-aa70-99e62af47e96&share_app_id=1233&ugbiz_name=MAIN&ug_btm=b2001&enable_checksum=1)
-
 
 From the www:
 
