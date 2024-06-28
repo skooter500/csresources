@@ -58,7 +58,7 @@ Stretch Goal project: i.am.dani
 - [2020](https://www.youtube.com/watch?v=NGQbYEESZEg&list=PL1n0B6z4e_E7I2bIWWpH8NAa6kPx95sw5&pp=gAQBiAQB)
 - [2019](https://www.youtube.com/watch?v=02jJRolMXUo&list=PL1n0B6z4e_E7lhCtkuacS_KvBORRHaR9E&pp=gAQBiAQB)
 
-## Team Repos
+## Example Student Repos
 - https://github.com/fionan313/MusicVisuals
 - https://github.com/JelloSarm/MusicVisuals
 - https://github.com/ASJA-Visuals/MusicVisuals
@@ -69,7 +69,7 @@ Stretch Goal project: i.am.dani
 
 ## Game Programming
 
-A module for first year Game Design students that uses Processing in semester 1 and Godot in semester 2. The aim is for students to learn fundamentals of programming, such as loops, arrays, classes etc. etc. They do this by using Processing, which is a graphical programming language based on Java.
+A module for first year Game Design students that uses Processing in semester 1 and Godot in semester 2. The aim is for students to learn fundamentals of programming, such as loops, arrays, classes etc. etc. They do this by using Processing, which is a graphical programming language based on Java, but you can also use Python.
 
 ## Example Courses
 - https://github.com/skooter500/GP-2023/
@@ -78,7 +78,7 @@ A module for first year Game Design students that uses Processing in semester 1 
 - https://github.com/skooter500/GP-2020-2021/
 - https://github.com/skooter500/GP-2019-2020/
 
-## Tests
+## In Class Tests
 - https://github.com/skooter500/GP-Test-2023
 - https://github.com/skooter500/GP-Test-2022/
 - https://github.com/skooter500/GP-2020-2021
@@ -94,7 +94,7 @@ A module for first year Game Design students that uses Processing in semester 1 
 - https://github.com/skooter500/GP_Lab_Test_1
 - https://github.com/skooter500/dt508_2015_labtest1
 
-## Assignments
+## Assignments & Rubrics 
 - https://github.com/skooter500/GP-2023/blob/master/assignments.md
 - https://github.com/skooter500/GP-2022-2023/blob/master/assignments.md
 
@@ -137,11 +137,11 @@ These are programming tests with Unity or Godot
 - https://github.com/skooter500/GE2-Lab-Test-2019
 - https://github.com/skooter500/GE2-LabTest2-2017
 
-## Assignments 
+## Assignments & Rubrics  
 - https://github.com/skooter500/GE2-2023/blob/master/ca.md
 - https://github.com/skooter500/GE2-2020-2021/blob/master/ca.md
 
-## Playlists
+## Playlists of assignments
 
 - https://www.youtube.com/watch?v=wgLdWPeAWMo&list=PL1n0B6z4e_E5lzjXKOn8BYEcdzXUrgPyn
 - https://www.youtube.com/watch?v=f9tmgOyUgD8&list=PL1n0B6z4e_E7YVQZ4utNXO87HlBsWXp-x&pp=gAQBiAQB
@@ -151,13 +151,13 @@ These are programming tests with Unity or Godot
 
 ## My projects on github
 
+- [Minarure Rotary Phone](https://github.com/skooter500/miniature-rotary-phone)
 - [Infinite Forms](https://github.com/skooter500/forms)
 - [iamdani](https://github.com/skooter500/forms)
 - [Tunepal](https://github.com/skooter500/tunepal)
 - [Janus](https://github.com/skooter500/janus)
 - [BGE](https://github.com/skooter500/bge)
 - [Make a Youtiube Playlist from a text file](https://github.com/skooter500/playlistmaker)
-
 
 ## Inspiration for CS lecturers 
 
