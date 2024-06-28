@@ -4,27 +4,9 @@
 
 "As we enjoy great advantages from the inventions of others, we should be glad of an opportunity to serve others by any invention of ours; and this we should do freely and generously"
 
-## Inspiration for CS lecturers 
-
-Click the images below:
-
-[![YouTube](http://img.youtube.com/vi/ji5_MqicxSo/0.jpg)](https://www.youtube.com/watch?v=ji5_MqicxSo)
-
-[![YouTube](http://img.youtube.com/vi/Pb5oIIPO62g/0.jpg)](https://www.youtube.com/watch?v=Pb5oIIPO62g)
-
-[![YouTube](http://img.youtube.com/vi/UyyjU8fzEYU/0.jpg)](https://www.youtube.com/watch?v=UyyjU8fzEYU)
-
-[![YouTube](http://img.youtube.com/vi/-m2Ntuom_6Y/0.jpg)](https://www.youtube.com/watch?v=-m2Ntuom_6Y)
-
-
-[![YouTube](http://img.youtube.com/vi/9JZSx1z3_vQ/0.jpg)](https://www.youtube.com/watch?v=9JZSx1z3_vQ)
-
- - [Old Coder Guy on CS Education](https://www.tiktok.com/@oldcoderguy/video/7289808775136054574?_r=1&u_code=dc3418ff6babc5&preview_pb=0&sharer_language=en&_d=e46g3k36h0dcjf&share_item_id=7289808775136054574&source=h5_m&timestamp=1705316542&user_id=6818474814652204038&sec_user_id=MS4wLjABAAAAQVyrfGP_a7iTmMT5QRL_wMGaj1arotdK3ZceyGeQryoLwdOGs3RYLGhnD4p-YnD1&social_share_type=0&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7323808453989254944&share_link_id=fd911533-4d61-4382-aa70-99e62af47e96&share_app_id=1233&ugbiz_name=MAIN&ug_btm=b2001&enable_checksum=1)
-
 ## Teaching Tools 
 
 This content is from my [GitHub](http://github.com/skooter500) and [YouTube](http://youtube.com/skooter500). There is lots more amazing stuff there :-) 
-
 
 - [git Tutorial for two students to do in a lab](gitlab.md)
 - [Template readme file for student team project repositories](assignmentreadme.md)
@@ -36,28 +18,12 @@ This content is from my [GitHub](http://github.com/skooter500) and [YouTube](htt
 - [More crazy VR project ideas](https://github.com/skooter500/GE1-2023/blob/master/assignment.md)
 - [Game Engines 1 past papers](https://github.com/skooter500/GE1-2023/blob/master/pastpapers.zip)
 
-From the www:
-
-- [Games Fleadh](http://gamesfleadh.ie)
-- [Git for Windows](https://gitforwindows.org/)
-- [GitHub Classroom](https://classroom.github.com/classrooms)
-- [Codingbat](https://codingbat.com/java) - Great for programming tutorials!!
-- [Leetcode](https://leetcode.com/) - Similar 
-- [processing](https://processing.org/)
-- [Processing for Python](https://py.processing.org/)
-- [The Coding Train](https://thecodingtrain.com/)
-- [The Nature of Code](https://natureofcode.com/)
-- [Godot](https://godotengine.org/)
-- [Logic Simulator 2](https://andrew-wilkes.itch.io/logic-simulator-2)
-- [Turing Complete](https://turingcomplete.game/)
-- [git for poets](https://www.youtube.com/watch?v=BCQHnlnPusY)
-
-
 ## Object Oriented Programming
 
 Second year CS students. One semester. Uses Java, GitHub, VSCode and the Processing libraries
 
 # Example Courses
+ - https://github.com/skooter500/OOP-2024
  - https://github.com/skooter500/OOP-2023
  - https://github.com/skooter500/OOP-2021-2022
  - https://github.com/skooter500/DT228-OOP-2015
@@ -74,13 +40,18 @@ Second year CS students. One semester. Uses Java, GitHub, VSCode and the Process
 - https://github.com/skooter500/OOP-LabTest1-
 
 ## Team Assignment
+- https://github.com/skooter500/OOP-2024/blob/master/assignments.md
 - https://github.com/skooter500/OOP-2023/blob/master/assignments.md
 - https://github.com/skooter500/MusicVisuals
 - https://github.com/skooter500/OOP-2018-2019/blob/master/assignments.md 
 - https://github.com/skooter500/SciFiUI
 
-## Team Videos
+Stretch Goal project: i.am.dani
 
+- https://github.com/skooter500/iamdani
+
+## Team Videos
+- [2024](https://www.youtube.com/watch?v=tqMkc-_airg&list=PL1n0B6z4e_E5apcm1SQxlNqLEez2IxnJI)
 - [2023](https://www.youtube.com/watch?v=WRQP5SPq54c&list=PL1n0B6z4e_E5a4a21KPXBpRLkTc5JkFOX&pp=gAQBiAQB)
 - [2022](https://www.youtube.com/watch?v=flGGAfn6u8M&list=PL1n0B6z4e_E5PgGZuffuY4bM_ZzeMRWD2&pp=gAQBiAQB)
 - [2021](https://www.youtube.com/watch?v=nFqEMTm5XLU&list=PL1n0B6z4e_E7Iwc8Uud1YlA_gOQXnmP3I&pp=gAQBiAQB)
@@ -88,6 +59,8 @@ Second year CS students. One semester. Uses Java, GitHub, VSCode and the Process
 - [2019](https://www.youtube.com/watch?v=02jJRolMXUo&list=PL1n0B6z4e_E7lhCtkuacS_KvBORRHaR9E&pp=gAQBiAQB)
 
 ## Team Repos
+- https://github.com/fionan313/MusicVisuals
+- https://github.com/JelloSarm/MusicVisuals
 - https://github.com/ASJA-Visuals/MusicVisuals
 - https://github.com/WillL02/MusicVisuals
 - https://github.com/annnnnne0811/MusicVisuals23
@@ -125,14 +98,17 @@ A module for first year Game Design students that uses Processing in semester 1 
 - https://github.com/skooter500/GP-2023/blob/master/assignments.md
 - https://github.com/skooter500/GP-2022-2023/blob/master/assignments.md
 
+## Assignment Videos - Musical Instruments Made with Godot
+- https://www.youtube.com/watch?v=xnbHNQOCXSU&list=PL1n0B6z4e_E7PV9bmzFDRow2Qoe1MOqvo
+
 # Game Engines 1
 Semester 1, year 4 for CS  and semester 1 year 3 for game design. Game Engines 1 is maths, physics and coding for game developers. For CS this a great example of applied CS (i.e. the *head fake*).
 
 ## Example Courses
 
-- https://github.com/skooter500/GE1-2021-2022/
-- https://github.com/skooter500/GE1-2022-2023/
 - https://github.com/skooter500/GE1-2023
+- https://github.com/skooter500/GE1-2022-2023/
+- https://github.com/skooter500/GE1-2021-2022/
 
 # Assignments
 - https://github.com/skooter500/GE1-2023/blob/master/assignment.md
@@ -181,3 +157,40 @@ These are programming tests with Unity or Godot
 - [Janus](https://github.com/skooter500/janus)
 - [BGE](https://github.com/skooter500/bge)
 - [Make a Youtiube Playlist from a text file](https://github.com/skooter500/playlistmaker)
+
+
+## Inspiration for CS lecturers 
+
+Click the images below:
+
+[![YouTube](http://img.youtube.com/vi/ji5_MqicxSo/0.jpg)](https://www.youtube.com/watch?v=ji5_MqicxSo)
+
+[![YouTube](http://img.youtube.com/vi/Pb5oIIPO62g/0.jpg)](https://www.youtube.com/watch?v=Pb5oIIPO62g)
+
+[![YouTube](http://img.youtube.com/vi/UyyjU8fzEYU/0.jpg)](https://www.youtube.com/watch?v=UyyjU8fzEYU)
+
+[![YouTube](http://img.youtube.com/vi/-m2Ntuom_6Y/0.jpg)](https://www.youtube.com/watch?v=-m2Ntuom_6Y)
+
+
+[![YouTube](http://img.youtube.com/vi/9JZSx1z3_vQ/0.jpg)](https://www.youtube.com/watch?v=9JZSx1z3_vQ)
+
+ - [Old Coder Guy on CS Education](https://www.tiktok.com/@oldcoderguy/video/7289808775136054574?_r=1&u_code=dc3418ff6babc5&preview_pb=0&sharer_language=en&_d=e46g3k36h0dcjf&share_item_id=7289808775136054574&source=h5_m&timestamp=1705316542&user_id=6818474814652204038&sec_user_id=MS4wLjABAAAAQVyrfGP_a7iTmMT5QRL_wMGaj1arotdK3ZceyGeQryoLwdOGs3RYLGhnD4p-YnD1&social_share_type=0&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7323808453989254944&share_link_id=fd911533-4d61-4382-aa70-99e62af47e96&share_app_id=1233&ugbiz_name=MAIN&ug_btm=b2001&enable_checksum=1)
+
+
+From the www:
+
+- [Games Fleadh](http://gamesfleadh.ie)
+- [Git for Windows](https://gitforwindows.org/)
+- [GitHub Classroom](https://classroom.github.com/classrooms)
+- [Codingbat](https://codingbat.com/java) - Great for programming tutorials!!
+- [Leetcode](https://leetcode.com/) - Similar 
+- [processing](https://processing.org/)
+- [Processing for Python](https://py.processing.org/)
+- [The Coding Train](https://thecodingtrain.com/)
+- [The Nature of Code](https://natureofcode.com/)
+- [Godot](https://godotengine.org/)
+- [Logic Simulator 2](https://andrew-wilkes.itch.io/logic-simulator-2)
+- [Turing Complete](https://turingcomplete.game/)
+- [git for poets](https://www.youtube.com/watch?v=BCQHnlnPusY)
+
+
