@@ -17,6 +17,14 @@ This content is from my [GitHub](http://github.com/skooter500) and [YouTube](htt
 - [project ideas](https://bryanduggan.org/projects/final-year-project-ideas/)
 - [More crazy VR project ideas](https://github.com/skooter500/GE1-2023/blob/master/assignment.md)
 - [Game Engines 1 past papers](https://github.com/skooter500/GE1-2023/blob/master/pastpapers.zip)
+- [Minarure Rotary Phone](https://github.com/skooter500/miniature-rotary-phone) Emergent Behaviors for Artificial Life in Godot
+- [Infinite Forms](https://github.com/skooter500/forms) - Emergent Behaviors for Artificial Life in Unity
+- [iamdani](https://github.com/skooter500/forms) - Computer Generated Art Made By Human Programmers
+- [Tunepal](https://github.com/skooter500/tunepal) - The worlds leading search engine for traditional Irish music
+- [Janus](https://github.com/skooter500/janus) - Gesture controlled robot arm project
+- [BGE](https://github.com/skooter500/bge) - Open source game engine in C++ for teaching and research 
+- [Make a Youtiube Playlist from a text file](https://github.com/skooter500/playlistmaker)
+
 
 ## Object Oriented Programming
 
@@ -149,15 +157,6 @@ These are programming tests with Unity or Godot
 - https://www.youtube.com/watch?v=Z0EBRiennwo&list=PL1n0B6z4e_E74Exw6947cgKthb8Mkzr7w&pp=gAQBiAQB
 - https://www.youtube.com/watch?v=IOCEM6ZNU-E&list=PL1n0B6z4e_E7PlsMwPXdXgIfJCKPInqzm&pp=gAQBiAQB
 
-## My projects on github
-
-- [Minarure Rotary Phone](https://github.com/skooter500/miniature-rotary-phone)
-- [Infinite Forms](https://github.com/skooter500/forms)
-- [iamdani](https://github.com/skooter500/forms)
-- [Tunepal](https://github.com/skooter500/tunepal)
-- [Janus](https://github.com/skooter500/janus)
-- [BGE](https://github.com/skooter500/bge)
-- [Make a Youtiube Playlist from a text file](https://github.com/skooter500/playlistmaker)
 
 ## Inspiration for CS lecturers 
 
