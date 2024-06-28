@@ -1,21 +1,26 @@
 # Project Title
 
+Include for each contributer:
+
 Name:
 
 Student Number: 
 
 Class Group:
 
-Video:
+Github: 
+
+# Video
 
 [![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+
+# Screenshots
 
 # Description of the project
 
 # Instructions for use
 
-
-# How it works
+# How it works:
 
 # List of classes/assets in the project
 
@@ -31,9 +36,15 @@ Video:
 
 # What I am most proud of in the assignment
 
+Each team member
+
 # What I learned
 
-# Proposal submitted earlier can go here:
+Each team member
+
+# Proposal submitted earlier can go here (if there is one):
+
+## Below is how to use Markdown. You can delete this:
 
 ## This is how to markdown text:
 
