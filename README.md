@@ -115,11 +115,13 @@ Semester 1, year 4 for CS  and semester 1 year 3 for game design. Game Engines 1
 
 ## Example Courses
 
+- https://github.com/skooter500/GE1-2024
 - https://github.com/skooter500/GE1-2023
 - https://github.com/skooter500/GE1-2022-2023/
 - https://github.com/skooter500/GE1-2021-2022/
 
 # Assignments
+- https://github.com/skooter500/GE1-2024/blob/master/assignment.md
 - https://github.com/skooter500/GE1-2023/blob/master/assignment.md
 - https://github.com/skooter500/GE1-2022-2023/blob/master/assignment.md
 
@@ -148,6 +150,8 @@ Semester 1, year 4 for CS and semester 1 year 3 for Game Design . Game Engines 2
 - https://github.com/skooter500/GE2-LabTest2-2017
 
 ## Assignments & Rubrics  
+- https://github.com/skooter500/GE2-2025/blob/main/ca.md
+- https://github.com/skooter500/GE2-2024/blob/main/ca.md
 - https://github.com/skooter500/GE2-2023/blob/master/ca.md
 - https://github.com/skooter500/GE2-2020-2021/blob/master/ca.md
 
