@@ -125,6 +125,7 @@ Semester 1, year 4 for CS  and semester 1 year 3 for game design. Game Engines 1
 
 ## YouTube Playlists of the Assignments
 
+- https://www.youtube.com/watch?v=FtxhKLheXAk&list=PL1n0B6z4e_E6cRfAfzaoXDueW38ZAFsI9
 - https://www.youtube.com/watch?v=ZkrQnQmDK-M&list=PL1n0B6z4e_E6LmwpeGIW7vYhesNYUOLEN&pp=gAQBiAQB
 - https://www.youtube.com/watch?v=0xyRtCJrhMY&list=PL1n0B6z4e_E5naCKOJDfU-sgX_3CdlRfN&pp=gAQBiAQB
 - https://www.youtube.com/watch?v=mSEMEWo5zCM&list=PL1n0B6z4e_E6GaGOHiBdPSW0QzICdGs4X&pp=gAQBiAQB
@@ -138,8 +139,8 @@ Semester 1, year 4 for CS and semester 1 year 3 for Game Design . Game Engines 2
 
 ## In Class Tests
 
-These are programming tests with Unity or Godot
-
+- https://github.com/skooter500/ge2-test-2024-supplemental-starter
+- https://github.com/skooter500/GE2-Test-2024-Starter
 - https://github.com/skooter500/GE2-Test-2023-Starter
 - https://github.com/skooter500/GE2-Test-2022
 - https://github.com/skooter500/GE2-Test-2021-Starter
@@ -152,6 +153,7 @@ These are programming tests with Unity or Godot
 
 ## YouTube Playlists of the Assignments
 
+- https://www.youtube.com/watch?v=qU3tOcJ82fo&list=PL1n0B6z4e_E5d6UDlyZZSxF4-2V7b2cPe
 - https://www.youtube.com/watch?v=wgLdWPeAWMo&list=PL1n0B6z4e_E5lzjXKOn8BYEcdzXUrgPyn
 - https://www.youtube.com/watch?v=f9tmgOyUgD8&list=PL1n0B6z4e_E7YVQZ4utNXO87HlBsWXp-x&pp=gAQBiAQB
 - https://www.youtube.com/watch?v=HVBxYQz96Iw&list=PL1n0B6z4e_E4HNNWuFN5fW1Efi6_fK9_r&pp=gAQBiAQB
