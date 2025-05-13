@@ -25,6 +25,7 @@
 | Ctrl + F1 | Switch to 2D |
 | Ctrl + F2 | Switch to 3D |
 | Ctrl + F3 | Switch to Code |
+| Alt + D | Show/hide the bottom window |
 
 ## Useful Nodes
 

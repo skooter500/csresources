@@ -37,6 +37,7 @@ Second year CS students. One semester. Uses Java, GitHub, VSCode and the Process
  - https://github.com/skooter500/DT228-OOP-2015
 
 ## Programming Tests
+- https://github.com/skooter500/OOP-2024-Test
 - https://github.com/skooter500/OOP-2023-Test
 - https://github.com/skooter500/OOP-Test-2022
 - https://github.com/skooter500/OOP-LabTest-2020-Starter
@@ -80,6 +81,7 @@ Stretch Goal project: i.am.dani
 A module for first year Game Design students that uses Processing in semester 1 and Godot in semester 2. The aim is for students to learn fundamentals of programming, such as loops, arrays, classes etc. etc. They do this by using Processing, which is a graphical programming language based on Java, but you can also use Python.
 
 ## Example Courses
+- https://github.com/skooter500/GP-2024/
 - https://github.com/skooter500/GP-2023/
 - https://github.com/skooter500/GP-2022-2023/
 - https://github.com/skooter500/GP-2021-2022/
@@ -87,6 +89,8 @@ A module for first year Game Design students that uses Processing in semester 1 
 - https://github.com/skooter500/GP-2019-2020/
 
 ## In Class Tests
+- https://github.com/skooter500/GP-Test-2024-Starter
+- https://github.com/skooter500/GP-Test-2024
 - https://github.com/skooter500/GP-Test-2023
 - https://github.com/skooter500/GP-Test-2022/
 - https://github.com/skooter500/GP-2020-2021
@@ -103,6 +107,7 @@ A module for first year Game Design students that uses Processing in semester 1 
 - https://github.com/skooter500/dt508_2015_labtest1
 
 ## Assignments & Rubrics 
+- https://github.com/skooter500/GP-2024/blob/master/assignments.md
 - https://github.com/skooter500/GP-2023/blob/master/assignments.md
 - https://github.com/skooter500/GP-2022-2023/blob/master/assignments.md
 
@@ -141,6 +146,8 @@ Semester 1, year 4 for CS and semester 1 year 3 for Game Design . Game Engines 2
 
 ## In Class Tests
 
+- https://github.com/skooter500/GE2-Test-Starter-2025
+- https://github.com/skooter500/GE2-Test-2025
 - https://github.com/skooter500/ge2-test-2024-supplemental-starter
 - https://github.com/skooter500/GE2-Test-2024-Starter
 - https://github.com/skooter500/GE2-Test-2023-Starter
