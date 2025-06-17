@@ -164,6 +164,7 @@ Semester 1, year 4 for CS and semester 1 year 3 for Game Design . Game Engines 2
 
 ## YouTube Playlists of the Assignments
 
+- https://www.youtube.com/watch?v=SjS7tecjipg&list=PL1n0B6z4e_E7AAvg0msH0QIWT_diEgKqE
 - https://www.youtube.com/watch?v=qU3tOcJ82fo&list=PL1n0B6z4e_E5d6UDlyZZSxF4-2V7b2cPe
 - https://www.youtube.com/watch?v=wgLdWPeAWMo&list=PL1n0B6z4e_E5lzjXKOn8BYEcdzXUrgPyn
 - https://www.youtube.com/watch?v=f9tmgOyUgD8&list=PL1n0B6z4e_E7YVQZ4utNXO87HlBsWXp-x&pp=gAQBiAQB
