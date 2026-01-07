@@ -1,6 +1,6 @@
 # cs resources
 
-"Education is about lighting a fire, not filling a pale"
+"Education is about lighting a fire, not filling a pail"
 
 "As we enjoy great advantages from the inventions of others, we should be glad of an opportunity to serve others by any invention of ours; and this we should do freely and generously"
 
@@ -204,5 +204,6 @@ From the www:
 - [Logic Simulator 2](https://andrew-wilkes.itch.io/logic-simulator-2)
 - [Turing Complete](https://turingcomplete.game/)
 - [git for poets](https://www.youtube.com/watch?v=BCQHnlnPusY)
+
 
 
