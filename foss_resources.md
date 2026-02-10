@@ -20,6 +20,7 @@
 
 # Gamedev Youtube Channels
 
+- https://youtube.com/@gdquest
 - https://www.youtube.com/@Brackeys
 - https://www.youtube.com/@lukky.
 - https://www.youtube.com/@lettacorporation
