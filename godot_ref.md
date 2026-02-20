@@ -1,130 +1,222 @@
-# Godot Quick Reference
+# Godot 4 Quick Reference
 
 ## Keyboard Shortcuts
 
 | Key | Use |
 |-----|-----|
-| F5 | Run current project |
+| F5 | Run project |
 | F6 | Run current scene |
 | F7 | Resume after pause |
 | F8 | Stop |
 | F9 | Toggle breakpoint |
-| F10 | Step out |
+| F10 | Step over |
 | F11 | Step into |
-| Ctrl  \ | Show hide recently opened files |
-| Ctrl  S | Save |
-| Ctrl  K | Comment a line |
-| Ctrl R | Search/Replace current file |
-| Ctrl F | Search current file |
-| Shift Ctrl F | Find in files |
-| Shift Ctrl R | Replace in files |
-| Ctrl Shift F11 | Max space for editing |
 | Ctrl + A | Add new node |
-| Ctrl + Shift + A | Instantiate new node |
-| F | Focus on the selected node in the 3D scene view |
+| Ctrl + D | Duplicate node |
+| Ctrl + Shift + A | Instantiate scene |
+| Ctrl + S | Save |
+| Ctrl + K | Comment line |
+| Ctrl + F | Search file |
+| Ctrl + R | Search/Replace file |
+| Ctrl + Shift + F | Find in files |
+| Ctrl + Shift + R | Replace in files |
+| Ctrl + Shift + F11 | Maximise editor |
+| Ctrl + \ | Recent files |
 | Ctrl + F1 | Switch to 2D |
 | Ctrl + F2 | Switch to 3D |
-| Ctrl + F3 | Switch to Code |
-| Alt + D | Show/hide the bottom window |
+| Ctrl + F3 | Switch to Script |
+| Alt + D | Toggle bottom panel |
+| F | Focus selected in viewport |
+| Q / W / E / R | Select / Move / Rotate / Scale gizmo |
 
-## Useful Nodes
+## Nodes
 
+### Core
 | Node | Purpose |
-| -----| --------|
-| Node3D | Node with a transform |
-| XROrigin3D | Origin of the world in VR |
-| XRCamera3D | Tracked Camera in VR |
-| DirectionalLight | |
-| StaticBody3D | World rigid body |
-| CollisionShape3D | Required to respond to collisions. Set the Shape property |
-| MeshInstance3D | 3D mesh renderer |
-| RigidBody3D | Rigid body |
-| CharacterBody3D | Kinematic rigid body |
-| Timer | Node that send signals on an interval |
-| Camera3D | 3D Camera |
-| Node2D | 2D transform node. The 2D transform has position, rotation (float) |
+|------|---------|
+| Node | Base class, no transform |
+| Node3D | 3D transform |
+| Node2D | 2D transform (position, rotation float, scale) |
+| Timer | Emits `timeout` signal on interval |
+
+### 3D Physics
+| Node | Purpose |
+|------|---------|
+| StaticBody3D | Immovable collider (world geometry) |
+| RigidBody3D | Physics-simulated body |
+| CharacterBody3D | Kinematic body (`move_and_slide`) |
+| Area3D | Detect overlaps, no physics response |
+| CollisionShape3D | Collision shape — set `Shape` property |
+
+### 3D Rendering
+| Node | Purpose |
+|------|---------|
+| MeshInstance3D | Renders a 3D mesh |
+| Camera3D | 3D camera |
+| DirectionalLight3D | Sun-like directional light |
+| OmniLight3D | Point light |
+| SpotLight3D | Cone light |
+| GPUParticles3D | GPU particle system |
+| CSGBox3D / CSGSphere3D | Constructive solid geometry |
+
+### 3D Navigation & Path
+| Node | Purpose |
+|------|---------|
+| Path3D | Defines a Curve3D path |
+| PathFollow3D | Moves along a Path3D |
+| NavigationAgent3D | Pathfinding agent |
+| NavigationRegion3D | Baked navmesh region |
+
+### 2D Physics & Rendering
+| Node | Purpose |
+|------|---------|
+| StaticBody2D | Immovable 2D collider |
+| RigidBody2D | 2D physics body |
+| CharacterBody2D | Kinematic 2D body |
+| Area2D | 2D overlap detection |
+| CollisionShape2D | 2D collision shape |
+| Sprite2D | 2D texture/sprite |
+| AnimatedSprite2D | Frame-based 2D animation |
+| TileMap | 2D tile-based levels |
+
+### XR / VR
+| Node | Purpose |
+|------|---------|
+| XROrigin3D | World origin for XR |
+| XRCamera3D | Tracked headset camera |
+| XRController3D | Tracked controller |
+
+### UI (Control nodes)
+| Node | Purpose |
+|------|---------|
+| Control | Base UI node |
+| Label | Display text |
+| Button | Clickable button |
+| VBoxContainer / HBoxContainer | Stack children vertically/horizontally |
+| ProgressBar | Visual progress bar |
+| TextureRect | Display a texture in UI |
+
+### Audio
+| Node | Purpose |
+|------|---------|
+| AudioStreamPlayer | Non-positional audio |
+| AudioStreamPlayer3D | Positional 3D audio |
 
 ## Transforms
 
-| To do | Use |
-|-------|-----|
-| Movement | translate, move_and_slide, move_and_collide | 
-| Setting the position | position =, transform.origin =, global_transform.origin = 
-| Rotating | rotate, rotate_x, rotate_y, rotate_z |
-| Setting the rotation | rotation = Vector3(x, y, z). This is in radians. transform.basis = transform.basis.rotated(), global_transform.basis = global_transform.basis.rotated(), or Basis (from) - where from is a quaternion | 
-| Setting the scale | scale, transform.basis.scale, global_transform.basis.scale n| 
+| Task | Code |
+|------|------|
+| Set position | `position = Vector3(x,y,z)` or `global_position = ...` |
+| Translate | `translate(v)`, `move_and_slide()`, `move_and_collide(v)` |
+| Rotate | `rotate_x/y/z(angle)`, `rotate(axis, angle)` |
+| Set rotation | `rotation = Vector3(x,y,z)` (radians) |
+| Look at target | `look_at(target_pos, Vector3.UP)` |
+| Set scale | `scale = Vector3(x,y,z)` |
+| Local ↔ World | `to_global(local_pos)`, `to_local(global_pos)` |
+| Basis from quat | `Basis(quaternion)` |
+| Slerp rotation | `basis.slerp(target_basis, t)` |
+
+## Referencing Nodes
+
+```python
+$Timer                              # by name
+$"../Sibling"                       # relative path
+get_parent()
+find_child("Name")
+get_node("/root/Main/Player")
+get_tree().root
+get_tree().quit()
+get_tree().change_scene_to_file("res://scene.tscn")
+
+@onready var cam: Camera3D = $Camera3D
+@onready var path: Path3D = get_node("../Path3D")
+```
 
 ## Particle Systems
 
 | Property | Meaning |
-|--------|-------|
-| ProcessMaterial | A shader that will process the particles. This is where the particle system is configured  |
-| DrawPass | Draws one Particle. Has a material |
-| Amount| How many particles in the system |
-| Emission Shapes | |
-| Lifetime | How long each one lives for |
-| One shot |  Just fire once and stop|
-| Preprocess | Wind the particle system forward this amount before starting |
-| Explosiveness | Explodes them all out semi randomly |
-| Randomness | How randomly they emit |
+|----------|---------|
+| ProcessMaterial | Shader controlling particle behaviour |
+| DrawPass | What each particle looks like (mesh + material) |
+| Amount | Total particle count |
+| Lifetime | How long each particle lives |
+| Emission Shape | Where particles spawn |
+| Explosiveness | 0 = steady stream, 1 = all at once |
+| Randomness | Timing randomness |
+| One Shot | Fire once then stop |
+| Preprocess | Fast-forward simulation on start |
 
-## Referencing other nodes
+## GDScript
 
-```Python
-$"..".add_child(bullet) 
-$CharacterBody3D/Turret/bulletSpawn.global_transform.basis
-$Timer.start(1.0 / fireRate)
+```python
+# Variables & types
+var i: int = 0
+var f: float = 0.0
+var s: String = "hello"
+var v: Vector3 = Vector3(1, 2, 3)
+var arr: Array = []
+var dict: Dictionary = {}
+const MAX: int = 100
 
-get_parent()
-find_child()
-@onready var path1:Path3D=get_node("../Path3D")
-@onready var path2:Path3D=$../Path3D
-get_tree().root
-get_tree().quit()
+# Signals
+signal health_changed(new_val: int)
+emit_signal("health_changed", hp)
+some_node.health_changed.connect(_on_health_changed)
 
+# Coroutines / await
+await get_tree().create_timer(2.0).timeout
+await get_tree().process_frame
+
+# Instantiate a PackedScene (prefab)
+@export var bullet_scene: PackedScene
+var b = bullet_scene.instantiate()
+add_child(b)
+
+# Control flow
+if condition:
+    pass
+elif other:
+    pass
+else:
+    pass
+
+match value:
+    1: pass
+    "hello": pass
+    _: pass          # default
+
+for i in range(10): pass
+for item in array: pass
+while condition: pass
+
+# Functions & classes
+func my_func(a: int, b: float) -> String:
+    return str(a + b)
+
+class_name MyClass extends Node3D
+
+# Annotations
+@export var speed: float = 5.0
+@onready var mesh: MeshInstance3D = $Mesh
+@tool   # runs in editor
 ```
 
-## GDScript Reference 
-
-
-|Code | Description                                            |
-|----|---|
-| func _ready():                                              |  |
-| if condition:  else:                                     |  |
-| if condition:  elif:                                     |  |
-| for i in range(length):                                  |  |
-| while condition:                                          |  |
-| var i = 0:int                                                      | |
-| var f = 0.0:float                                                    | | 
-| var v = Vector3(1, 2, 3)                                       | |
-| @export var bulletPrefab:PackedScene | Give a node a reference to a packedscene (prefab) that can be instiantiated later | 
-| var bullet = bulletPrefab.instantiate() | Create a new node from a packedscene |
-| class_name MyClass extends Node: ...                            | Create a named class |
-| var n = Something.new() | Instantiate a new object |
-| func my_method(): | Create a function |
-| get_node("/path/to/node").get_node("MyComponent")               |  Get a node using path string|
-| var rigidbody = get_node("/path/to/node").get_node("RigidBody") | |
-| yield(get_tree().create_timer(duration), "timeout")            | This is a coroutine. Timers are better |
-| Input.is_action_pressed("ui_accept")                           | Check for an action |
-| delta *or* get_process_delta_time() | time since last frame |
-| global_transform.looking_at(boid.global_transform.origin, Vector3.UP) |
-| a.dot(b)                                                 | Dot product of two vectors. Used to calculate infront/behind or angle between the vectors, or for lighting |
-| a.cross(b)                                               | Cross product of two vectors |
-| v.normalized()                                           | Make of length 1. Preserve the direction |
-| v.length()                                               | Magnitude of the vector |
-| a.distance_to(b)                                         | Euclidian distance  |
-| from.angle_to(to)                                        | |
-| v.clamped(max)                                           | Limit the magnitude |
-| a.linear_interpolate(b, t)                                | lerp | 
-| inDirection.reflect(inNormal)  | Reflect |
-| Vector3.UP | World UP vector |
-| Vector3.RIGHT | |
-| Vector3.FORWARD |  |
-| rand_range() *In Godot, call randomize() once in your program to set the random seed* | |
-| basis.slerp or quat.slerp | Slerp a basis vectror or quaternion |
-| basis.xform() | Transform a vector | 
-| DebugDraw3D.draw_sphere(target.global_transform.origin, slowing_radius, Color.aquamarine) | Draw a sphere |
-| DebugDraw3D.draw_line(boid.global_transform.origin, feeler.hit_target, Color.chartreuse) *or* DebugDraw.draw_arrow_line(feeler.hit_target, feeler.hit_target + feeler.normal, Color.blue, 0.1) | Draw a line |
-| @tool | |
-| @export | |
-| @onready | |
+| Code | Description |
+|------|-------------|
+| `Input.is_action_pressed("ui_accept")` | Check input action |
+| `Input.get_axis("left", "right")` | -1 to 1 axis input |
+| `delta` | Time since last frame |
+| `lerp(a, b, t)` | Linear interpolate |
+| `randf_range(min, max)` | Random float in range |
+| `randi() % n` | Random int 0..n-1 |
+| `a.dot(b)` | Dot product |
+| `a.cross(b)` | Cross product |
+| `v.normalized()` | Unit vector |
+| `v.length()` | Magnitude |
+| `a.distance_to(b)` | Distance |
+| `a.angle_to(b)` | Angle between vectors |
+| `v.clamp(min, max)` | Clamp vector magnitude |
+| `basis * vector` | Transform a vector by a basis |
+| `Vector3.UP / RIGHT / FORWARD` | World axis constants |
+| `DebugDraw3D.draw_sphere(pos, r, color)` | Debug sphere |
+| `DebugDraw3D.draw_line(a, b, color)` | Debug line |

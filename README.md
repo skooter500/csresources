@@ -8,6 +8,7 @@
 
 This content is from my [GitHub](http://github.com/skooter500) and [YouTube](http://youtube.com/skooter500). There is lots more amazing stuff there :-) 
 
+- [Free and Open Source Tools I Know and Love](foss_resources.md)
 - [git Tutorial for two students to do in a lab](gitlab.md)
 - [Template readme file for student team project repositories](assignmentreadme.md)
 - [git quick reference](git_ref.pdf)
