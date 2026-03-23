@@ -10,7 +10,7 @@ This content is from my [GitHub](http://github.com/skooter500) and [YouTube](htt
 
 - [Free and Open Source Tools I Know and Love](foss_resources.md)
 - [git Tutorial for two students to do in a lab](gitlab.md)
-- [Template readme file for student team project repositories](assignmentreadme.md)
+- [Template readme file for student team project repositories](assignment/README.md)
 - [git quick reference](git_ref.pdf)
 - [Godot quick reference](godot_ref.pdf)
 - [Unity quick reference](unity_ref.pdf)

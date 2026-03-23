@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>godot_ref.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="godot-4-quick-reference">Godot 4 Quick Reference</h1>
+<h2 id="keyboard-shortcuts">Keyboard Shortcuts</h2>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F5</td>
+<td>Run project</td>
+</tr>
+<tr>
+<td>F6</td>
+<td>Run current scene</td>
+</tr>
+<tr>
+<td>F7</td>
+<td>Resume after pause</td>
+</tr>
+<tr>
+<td>F8</td>
+<td>Stop</td>
+</tr>
+<tr>
+<td>F9</td>
+<td>Toggle breakpoint</td>
+</tr>
+<tr>
+<td>F10</td>
+<td>Step over</td>
+</tr>
+<tr>
+<td>F11</td>
+<td>Step into</td>
+</tr>
+<tr>
+<td>Ctrl + A</td>
+<td>Add new node</td>
+</tr>
+<tr>
+<td>Ctrl + D</td>
+<td>Duplicate node</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + A</td>
+<td>Instantiate scene</td>
+</tr>
+<tr>
+<td>Ctrl + S</td>
+<td>Save</td>
+</tr>
+<tr>
+<td>Ctrl + K</td>
+<td>Comment line</td>
+</tr>
+<tr>
+<td>Ctrl + F</td>
+<td>Search file</td>
+</tr>
+<tr>
+<td>Ctrl + R</td>
+<td>Search/Replace file</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + F</td>
+<td>Find in files</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + R</td>
+<td>Replace in files</td>
+</tr>
+<tr>
+<td>Ctrl + Shift + F11</td>
+<td>Maximise editor</td>
+</tr>
+<tr>
+<td>Ctrl + \</td>
+<td>Recent files</td>
+</tr>
+<tr>
+<td>Ctrl + F1</td>
+<td>Switch to 2D</td>
+</tr>
+<tr>
+<td>Ctrl + F2</td>
+<td>Switch to 3D</td>
+</tr>
+<tr>
+<td>Ctrl + F3</td>
+<td>Switch to Script</td>
+</tr>
+<tr>
+<td>Alt + D</td>
+<td>Toggle bottom panel</td>
+</tr>
+<tr>
+<td>F</td>
+<td>Focus selected in viewport</td>
+</tr>
+<tr>
+<td>Q / W / E / R</td>
+<td>Select / Move / Rotate / Scale gizmo</td>
+</tr>
+</tbody>
+</table>
+<h2 id="nodes">Nodes</h2>
+<h3 id="core">Core</h3>
+<table>
+<thead>
+<tr>
+<th>Node</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Node</td>
+<td>Base class, no transform</td>
+</tr>
+<tr>
+<td>Node3D</td>
+<td>3D transform</td>
+</tr>
+<tr>
+<td>Node2D</td>
+<td>2D transform (position, rotation float, scale)</td>
+</tr>
+<tr>
+<td>Timer</td>
+<td>Emits <code>timeout</code> signal on interval</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3d-physics">3D Physics</h3>
+<table>
+<thead>
+<tr>
+<th>Node</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>StaticBody3D</td>
+<td>Immovable collider (world geometry)</td>
+</tr>
+<tr>
+<td>RigidBody3D</td>
+<td>Physics-simulated body</td>
+</tr>
+<tr>
+<td>CharacterBody3D</td>
+<td>Kinematic body (<code>move_and_slide</code>)</td>
+</tr>
+<tr>
+<td>Area3D</td>
+<td>Detect overlaps, no physics response</td>
+</tr>
+<tr>
+<td>CollisionShape3D</td>
+<td>Collision shape — set <code>Shape</code> property</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3d-rendering">3D Rendering</h3>
+<table>
+<thead>
+<tr>
+<th>Node</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MeshInstance3D</td>
+<td>Renders a 3D mesh</td>
+</tr>
+<tr>
+<td>Camera3D</td>
+<td>3D camera</td>
+</tr>
+<tr>
+<td>DirectionalLight3D</td>
+<td>Sun-like directional light</td>
+</tr>
+<tr>
+<td>OmniLight3D</td>
+<td>Point light</td>
+</tr>
+<tr>
+<td>SpotLight3D</td>
+<td>Cone light</td>
+</tr>
+<tr>
+<td>GPUParticles3D</td>
+<td>GPU particle system</td>
+</tr>
+<tr>
+<td>CSGBox3D / CSGSphere3D</td>
+<td>Constructive solid geometry</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3d-navigation--path">3D Navigation &amp; Path</h3>
+<table>
+<thead>
+<tr>
+<th>Node</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Path3D</td>
+<td>Defines a Curve3D path</td>
+</tr>
+<tr>
+<td>PathFollow3D</td>
+<td>Moves along a Path3D</td>
+</tr>
+<tr>
+<td>NavigationAgent3D</td>
+<td>Pathfinding agent</td>
+</tr>
+<tr>
+<td>NavigationRegion3D</td>
+<td>Baked navmesh region</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2d-physics--rendering">2D Physics &amp; Rendering</h3>
+<table>
+<thead>
+<tr>
+<th>Node</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>StaticBody2D</td>
+<td>Immovable 2D collider</td>
+</tr>
+<tr>
+<td>RigidBody2D</td>
+<td>2D physics body</td>
+</tr>
+<tr>
+<td>CharacterBody2D</td>
+<td>Kinematic 2D body</td>
+</tr>
+<tr>
+<td>Area2D</td>
+<td>2D overlap detection</td>
+</tr>
+<tr>
+<td>CollisionShape2D</td>
+<td>2D collision shape</td>
+</tr>
+<tr>
+<td>Sprite2D</td>
+<td>2D texture/sprite</td>
+</tr>
+<tr>
+<td>AnimatedSprite2D</td>
+<td>Frame-based 2D animation</td>
+</tr>
+<tr>
+<td>TileMap</td>
+<td>2D tile-based levels</td>
+</tr>
+</tbody>
+</table>
+<h3 id="xr--vr">XR / VR</h3>
+<table>
+<thead>
+<tr>
+<th>Node</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>XROrigin3D</td>
+<td>World origin for XR</td>
+</tr>
+<tr>
+<td>XRCamera3D</td>
+<td>Tracked headset camera</td>
+</tr>
+<tr>
+<td>XRController3D</td>
+<td>Tracked controller</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ui-control-nodes">UI (Control nodes)</h3>
+<table>
+<thead>
+<tr>
+<th>Node</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Control</td>
+<td>Base UI node</td>
+</tr>
+<tr>
+<td>Label</td>
+<td>Display text</td>
+</tr>
+<tr>
+<td>Button</td>
+<td>Clickable button</td>
+</tr>
+<tr>
+<td>VBoxContainer / HBoxContainer</td>
+<td>Stack children vertically/horizontally</td>
+</tr>
+<tr>
+<td>ProgressBar</td>
+<td>Visual progress bar</td>
+</tr>
+<tr>
+<td>TextureRect</td>
+<td>Display a texture in UI</td>
+</tr>
+</tbody>
+</table>
+<h3 id="audio">Audio</h3>
+<table>
+<thead>
+<tr>
+<th>Node</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AudioStreamPlayer</td>
+<td>Non-positional audio</td>
+</tr>
+<tr>
+<td>AudioStreamPlayer3D</td>
+<td>Positional 3D audio</td>
+</tr>
+</tbody>
+</table>
+<h2 id="transforms">Transforms</h2>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Set position</td>
+<td><code>position = Vector3(x,y,z)</code> or <code>global_position = ...</code></td>
+</tr>
+<tr>
+<td>Translate</td>
+<td><code>translate(v)</code>, <code>move_and_slide()</code>, <code>move_and_collide(v)</code></td>
+</tr>
+<tr>
+<td>Rotate</td>
+<td><code>rotate_x/y/z(angle)</code>, <code>rotate(axis, angle)</code></td>
+</tr>
+<tr>
+<td>Set rotation</td>
+<td><code>rotation = Vector3(x,y,z)</code> (radians)</td>
+</tr>
+<tr>
+<td>Look at target</td>
+<td><code>look_at(target_pos, Vector3.UP)</code></td>
+</tr>
+<tr>
+<td>Set scale</td>
+<td><code>scale = Vector3(x,y,z)</code></td>
+</tr>
+<tr>
+<td>Local ↔ World</td>
+<td><code>to_global(local_pos)</code>, <code>to_local(global_pos)</code></td>
+</tr>
+<tr>
+<td>Basis from quat</td>
+<td><code>Basis(quaternion)</code></td>
+</tr>
+<tr>
+<td>Slerp rotation</td>
+<td><code>basis.slerp(target_basis, t)</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="referencing-nodes">Referencing Nodes</h2>
+<pre class="hljs"><code><div>$Timer                              <span class="hljs-comment"># by name</span>
+$<span class="hljs-string">"../Sibling"</span>                       <span class="hljs-comment"># relative path</span>
+get_parent()
+find_child(<span class="hljs-string">"Name"</span>)
+get_node(<span class="hljs-string">"/root/Main/Player"</span>)
+get_tree().root
+get_tree().quit()
+get_tree().change_scene_to_file(<span class="hljs-string">"res://scene.tscn"</span>)
+
+<span class="hljs-meta">@onready var cam: Camera3D = $Camera3D</span>
+<span class="hljs-meta">@onready var path: Path3D = get_node("../Path3D")</span>
+</div></code></pre>
+<h2 id="particle-systems">Particle Systems</h2>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ProcessMaterial</td>
+<td>Shader controlling particle behaviour</td>
+</tr>
+<tr>
+<td>DrawPass</td>
+<td>What each particle looks like (mesh + material)</td>
+</tr>
+<tr>
+<td>Amount</td>
+<td>Total particle count</td>
+</tr>
+<tr>
+<td>Lifetime</td>
+<td>How long each particle lives</td>
+</tr>
+<tr>
+<td>Emission Shape</td>
+<td>Where particles spawn</td>
+</tr>
+<tr>
+<td>Explosiveness</td>
+<td>0 = steady stream, 1 = all at once</td>
+</tr>
+<tr>
+<td>Randomness</td>
+<td>Timing randomness</td>
+</tr>
+<tr>
+<td>One Shot</td>
+<td>Fire once then stop</td>
+</tr>
+<tr>
+<td>Preprocess</td>
+<td>Fast-forward simulation on start</td>
+</tr>
+</tbody>
+</table>
+<h2 id="gdscript">GDScript</h2>
+<pre class="hljs"><code><div><span class="hljs-comment"># Variables &amp; types</span>
+var i: int = <span class="hljs-number">0</span>
+var f: float = <span class="hljs-number">0.0</span>
+var s: String = <span class="hljs-string">"hello"</span>
+var v: Vector3 = Vector3(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>)
+var arr: Array = []
+var dict: Dictionary = {}
+const MAX: int = <span class="hljs-number">100</span>
+
+<span class="hljs-comment"># Signals</span>
+signal health_changed(new_val: int)
+emit_signal(<span class="hljs-string">"health_changed"</span>, hp)
+some_node.health_changed.connect(_on_health_changed)
+
+<span class="hljs-comment"># Coroutines / await</span>
+<span class="hljs-keyword">await</span> get_tree().create_timer(<span class="hljs-number">2.0</span>).timeout
+<span class="hljs-keyword">await</span> get_tree().process_frame
+
+<span class="hljs-comment"># Instantiate a PackedScene (prefab)</span>
+<span class="hljs-meta">@export var bullet_scene: PackedScene</span>
+var b = bullet_scene.instantiate()
+add_child(b)
+
+<span class="hljs-comment"># Control flow</span>
+<span class="hljs-keyword">if</span> condition:
+    <span class="hljs-keyword">pass</span>
+<span class="hljs-keyword">elif</span> other:
+    <span class="hljs-keyword">pass</span>
+<span class="hljs-keyword">else</span>:
+    <span class="hljs-keyword">pass</span>
+
+match value:
+    <span class="hljs-number">1</span>: <span class="hljs-keyword">pass</span>
+    <span class="hljs-string">"hello"</span>: <span class="hljs-keyword">pass</span>
+    _: <span class="hljs-keyword">pass</span>          <span class="hljs-comment"># default</span>
+
+<span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">10</span>): <span class="hljs-keyword">pass</span>
+<span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> array: <span class="hljs-keyword">pass</span>
+<span class="hljs-keyword">while</span> condition: <span class="hljs-keyword">pass</span>
+
+<span class="hljs-comment"># Functions &amp; classes</span>
+func my_func(a: int, b: float) -&gt; String:
+    <span class="hljs-keyword">return</span> str(a + b)
+
+class_name MyClass extends Node3D
+
+<span class="hljs-comment"># Annotations</span>
+<span class="hljs-meta">@export var speed: float = 5.0</span>
+<span class="hljs-meta">@onready var mesh: MeshInstance3D = $Mesh</span>
+<span class="hljs-meta">@tool   # runs in editor</span>
+</div></code></pre>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Input.is_action_pressed(&quot;ui_accept&quot;)</code></td>
+<td>Check input action</td>
+</tr>
+<tr>
+<td><code>Input.get_axis(&quot;left&quot;, &quot;right&quot;)</code></td>
+<td>-1 to 1 axis input</td>
+</tr>
+<tr>
+<td><code>delta</code></td>
+<td>Time since last frame</td>
+</tr>
+<tr>
+<td><code>lerp(a, b, t)</code></td>
+<td>Linear interpolate</td>
+</tr>
+<tr>
+<td><code>randf_range(min, max)</code></td>
+<td>Random float in range</td>
+</tr>
+<tr>
+<td><code>randi() % n</code></td>
+<td>Random int 0..n-1</td>
+</tr>
+<tr>
+<td><code>a.dot(b)</code></td>
+<td>Dot product</td>
+</tr>
+<tr>
+<td><code>a.cross(b)</code></td>
+<td>Cross product</td>
+</tr>
+<tr>
+<td><code>v.normalized()</code></td>
+<td>Unit vector</td>
+</tr>
+<tr>
+<td><code>v.length()</code></td>
+<td>Magnitude</td>
+</tr>
+<tr>
+<td><code>a.distance_to(b)</code></td>
+<td>Distance</td>
+</tr>
+<tr>
+<td><code>a.angle_to(b)</code></td>
+<td>Angle between vectors</td>
+</tr>
+<tr>
+<td><code>v.clamp(min, max)</code></td>
+<td>Clamp vector magnitude</td>
+</tr>
+<tr>
+<td><code>basis * vector</code></td>
+<td>Transform a vector by a basis</td>
+</tr>
+<tr>
+<td><code>Vector3.UP / RIGHT / FORWARD</code></td>
+<td>World axis constants</td>
+</tr>
+<tr>
+<td><code>DebugDraw3D.draw_sphere(pos, r, color)</code></td>
+<td>Debug sphere</td>
+</tr>
+<tr>
+<td><code>DebugDraw3D.draw_line(a, b, color)</code></td>
+<td>Debug line</td>
+</tr>
+</tbody>
+</table>
+
+</body>
+</html>
