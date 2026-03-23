@@ -8,7 +8,6 @@ Student Number:
 
 Class Group:
 
-Github: 
 
 # Video
 
@@ -16,11 +15,30 @@ Github:
 
 # Screenshots
 
+This is an image using a relative URL:
+
+![An image](images/p8.png)
+
+This is an image using an absolute URL:
+
+![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
+
+This is a youtube video:
+
+[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+
+
 # Description of the project
+
+This must be human written
 
 # Instructions for use
 
+This must be human written
+
 # How it works:
+
+You explain
 
 # List of classes/assets in the project
 
@@ -36,11 +54,13 @@ Github:
 
 # What I am most proud of in the assignment
 
-Each team member
+- Each team member
+- Must be human written. Reflect on what you achieved and share it
 
 # What I learned
 
-Each team member
+- Each team member
+- Must be human written. Reflect on what you learned and share it
 
 # Proposal submitted earlier can go here (if there is one):
 
@@ -93,17 +113,6 @@ public void render()
 }
 ```
 
-This is an image using a relative URL:
-
-![An image](images/p8.png)
-
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
-
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
 
 This is a table:
 
