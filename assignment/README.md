@@ -30,7 +30,7 @@ This is a youtube video:
 
 # Description of the project
 
-This must be human written
+This must be human written.
 
 # Instructions for use
 
@@ -38,7 +38,7 @@ This must be human written
 
 # How it works:
 
-You explain
+Explain in your own words
 
 # List of classes/assets in the project
 
