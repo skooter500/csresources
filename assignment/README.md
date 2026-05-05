@@ -64,7 +64,7 @@ Explain in your own words
 
 # Proposal submitted earlier can go here (if there is one):
 
-## Below is how to use Markdown. You can delete this:
+## Examples of markdown:
 
 ## This is how to markdown text:
 
